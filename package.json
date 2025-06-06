@@ -2,13 +2,14 @@
   "name": "dr-hill-ai-customer-service",
   "version": "1.0.0",
   "description": "Customer Service AI Agent for Dr. Hill massage network",
-  "main": "src/index.js",
+  "main": "src/webhook.js",
   "directories": {
     "test": "tests"
   },
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js",
+    "start": "node src/webhook.js",
+    "dev": "nodemon src/webhook.js",
+    "full": "node src/index.js",
     "test": "jest",
     "lint": "eslint src/"
   },
